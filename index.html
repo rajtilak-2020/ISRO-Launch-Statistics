@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the ISRO Launch Dashboard created & designed by K Rajtilak where you can find all the information about the ISRO Launches.">
+    <meta name="author" content="K Rajtilak">
+    <title>ISRO Launch Statistics Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/wTVWH288/mylogov2.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ISRO Launch Statistics 🚀</h1>
+            <h3>Designed by <span class="author">K Rajtilak</span></h3>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search for launches...">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="loading-spinner" class="spinner" style="display: none;"></div>
+        <div id="stats" class="stats"></div>
+        <div id="error-message" style="color: red;"></div>
+    </main>
+    <footer>
+        <p>© <span id="year"></span> Created With ❤️ By <a href="https://github.com/rajtilak-2020" target="_blank">K Rajtilak</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
